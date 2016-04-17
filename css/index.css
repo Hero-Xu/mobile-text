@@ -1,0 +1,135 @@
+body{
+	height: 100%;
+	width: 100%;
+	background: #666;
+}
+.loading{
+	background:#333;
+	width:100%;
+	height:100%;
+	line-height:400px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:99999;
+	color:#ccc;
+	text-align:center;
+}
+.mp3{width:32px;
+	height:32px;
+	background:url(../img/mp3.png) no-repeat center -25px;
+	background-size:16px 48px;
+	z-index:99;
+	position: absolute;
+	bottom:3%;
+	left:3%;
+}
+.mp3.stop{background-position:center 5px;}
+.icon-up{
+	/*height: auto;*/
+	width: 25px;
+	position:absolute;
+	left: 50%;
+	margin-left: -12px;
+	top: 93%;
+	z-index: 9999;
+}
+.hide{
+	display: none;
+}
+.page{
+    width:100%;
+    height:100%;
+    position:absolute;
+    font-size:100px;
+    text-align:center;
+}
+
+.page .wrap{
+    height:100%;
+}
+
+.page-1-1{ background: url(../img/index-bg.jpg) no-repeat; background-size:100% 100%;}
+.page-2-1{ background: url(../img/1-bg.jpg) no-repeat; background-size:100% 100%;}
+.page-3-1{ background: url(../img/2-bg.jpg) no-repeat; background-size:100% 100%;}
+.page-4-1{ background: url(../img/3-bg.jpg) no-repeat; background-size:100% 100%;}
+.page-5-1{ background: url(../img/4-bg.jpg) no-repeat; background-size:100% 100%;}
+.page-6-1{ background: url(../img/5-bg.jpg) no-repeat; background-size:100% 100%;}
+.page-7-1{ background: url(../img/6-bg.jpg) no-repeat; background-size:100% 100%;}
+.page-8-1{background: url(../img/end-bg.jpg) no-repeat; background-size:100% 100%;}
+
+.page-1-1 .img_1{
+	width: 100%;
+	position: absolute;
+	top: 25%;
+	left: 0;
+}
+.page-current{
+	z-index: 1;
+}
+#img1-1{ width: 100%; height: auto; position: absolute; bottom: 0; left: 0;opacity: 0;}
+#img1-2{ width: 100%; height: auto; position: absolute; bottom: 0; left: 0;opacity: 0;}
+#img1-3{ width: 100%; height: auto; position: absolute; bottom: 0; left: 0;opacity: 0;}
+#img2-1{ width: 100%; height: auto; position: absolute; bottom: 0; left: 0;opacity: 0;}
+#img2-2{ width: 100%; height: auto; position: absolute; bottom: 0; left: 0;opacity: 0;}
+#img2-3{ width: 100%; height: auto; position: absolute; bottom: 0; left: 0;opacity: 0;}
+#img3-1{ width: 100%; height: auto; position: absolute; bottom: 0; left: 0;opacity: 0;}
+#img3-2{ width: 100%; height: auto; position: absolute; bottom: 0; left: 0;opacity: 0;}
+#img3-3{ width: 100%; height: auto; position: absolute; top: 0; left: 0;opacity: 0;}
+
+.show-w1{
+	animation: show0 1s ease-in forwards;
+	-webkit-webkit: animation: show0 1s ease-in forwards;
+	-moz-webkit: animation: show0 1s ease-in forwards;
+	-ms-webkit: animation: show0 1s ease-in forwards;
+	-o-webkit: animation: show0 1s ease-in forwards;
+	webkit: animation: show0 1s ease-in forwards;
+}
+@-webkit-keyframes show0 {
+	from { opacity:0; }
+	to { opacity:1; }
+}
+@-o-keyframes show0 {
+	from { opacity:0; }
+	to { opacity:1; }
+}
+@-moz-keyframes show0 {
+	from {opacity:0; }
+	to { opacity:1; }
+}
+@keyframes show0 {
+	from { opacity:0; }
+	to { opacity:1; }
+}
+.show-w2{
+	animation: show0 1s ease-in 1s forwards ;
+	-webkit-webkit: animation:show0 1s ease-in 1s forwards;
+	-moz-webkit: animation:show0 1s ease-in 1s forwards;
+	-ms-webkit: animation:show0 1s ease-in 1s forwards;
+	-o-webkit: animation:show0 1s ease-in 1s forwards;
+	webkit: animation:show0 1s ease-in 1s forwards;
+}
+.show-w3{
+	animation:show0 1s ease-in 2s forwards;
+	-webkit-webkit: animation:show0 1s ease-in 2s forwards;
+	-moz-webkit: animation:show0 1s ease-in 2s forwards;
+	-ms-webkit: animation:show0 1s ease-in 2s forwards;
+	-o-webkit: animation:show0 1s ease-in 2s forwards;
+	webkit: animation:show0 1s ease-in 2s forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
