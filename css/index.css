@@ -63,6 +63,7 @@ body{
 	position: absolute;
 	top: 25%;
 	left: 0;
+	opacity: 0;
 }
 .page-current{
 	z-index: 1;
@@ -73,10 +74,15 @@ body{
 #img2-1{ width: 100%; height: auto; position: absolute; bottom: 0; left: 0;opacity: 0;}
 #img2-2{ width: 100%; height: auto; position: absolute; bottom: 0; left: 0;opacity: 0;}
 #img2-3{ width: 100%; height: auto; position: absolute; bottom: 0; left: 0;opacity: 0;}
-#img3-1{ width: 100%; height: auto; position: absolute; bottom: 0; left: 0;opacity: 0;}
-#img3-2{ width: 100%; height: auto; position: absolute; bottom: 0; left: 0;opacity: 0;}
-#img3-3{ width: 100%; height: auto; position: absolute; top: 0; left: 0;opacity: 0;}
 
+.show-w1-1{
+	animation: show0 3s ease-out forwards;
+	-webkit-webkit: animation: show0 3s ease-out forwards;
+	-moz-webkit: animation: show0 3s ease-out forwards;
+	-ms-webkit: animation: show0 3s ease-out forwards;
+	-o-webkit: animation: show0 3s ease-out forwards;
+	webkit: animation: show 3s ease-out forwards;
+}
 .show-w1{
 	animation: show0 1s ease-in forwards;
 	-webkit-webkit: animation: show0 1s ease-in forwards;
